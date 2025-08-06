@@ -14,7 +14,7 @@ local function register_mast(name, wdesc, wnodebox)
             type = "fixed",
             fixed = wnodebox, --nodebox for node
         },
-        sounds = default.node_sound_wood_defaults(),
+--        sounds = default.node_sound_wood_defaults(),
         is_ground_content = false,
         palette = "wirepalette.png",
         on_rotate = screwdriver.rotate_simple,
