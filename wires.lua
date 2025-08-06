@@ -21,7 +21,7 @@ selection_box = {
 type = "fixed",
 fixed = {-0.3, 0.2, -0.3, 0.3, 0.5, 0.3}, --same for all nodes
 },
-sounds = default.node_sound_wood_defaults(),
+--sounds = default.node_sound_wood_defaults(),
 is_ground_content = false,
 palette = "wirepalette.png",
 on_rotate = screwdriver.rotate_simple,
